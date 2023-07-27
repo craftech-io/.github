@@ -1,4 +1,5 @@
 ## Reglas para Contribuir y Evitar Duplicación:
+Las ideas, issues y RFC que sean generales tienen que cargarse en este [repositorio](https://github.com/craftech-io/craftech).
 
 1. **Búsqueda previa**: Antes de realizar una contribución, asegúrate de investigar el repositorio para evitar duplicar problemas o solicitudes de características que ya hayan sido presentadas. Utiliza la función de búsqueda para verificar si el tema que deseas agregar ya existe.
 
@@ -21,11 +22,11 @@ Siguiendo estas reglas y utilizando los templates disponibles, podremos mantener
 ## Listado de templates:
 ### Discussion:
 Se tienen que copiar y pegar a la hora de generar una nueva entrada.
-- [RFC](.github/DISCUSSION_TEMPLATE/rfc.md)
-- [IDEA](.github/DISCUSSION_TEMPLATE/idea.md)
+- [RFC](DISCUSSION_TEMPLATE/rfc.md)
+- [IDEA](DISCUSSION_TEMPLATE/idea.md)
 ### Issues:
 Automaticos al crear un issue
-- [BUG](.github/ISSUE_TEMPLATE/bug_report.md)
+- [BUG](ISSUE_TEMPLATE/bug_report.md)
 
 ## Differencias entre las contribuciones:
 ### Idea:
