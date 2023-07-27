@@ -8,6 +8,6 @@ Te invitamos a ser parte activa de este espacio, donde cada opinión cuenta y ca
 
 ## ¿Cómo Contribuir?
 
-Para contribuir a nuestro proyecto, por favor sigue las reglas y pautas establecidas en nuestro archivo [CONTRIBUTING.md](CONTRIBUTING.md). Este archivo contiene las instrucciones sobre cómo participar, las reglas para contribuir, y cualquier otra información relevante sobre el proceso de contribución.
+Para contribuir a nuestro proyecto, por favor sigue las reglas y pautas establecidas en nuestro archivo [CONTRIBUTING.md](../CONTRIBUTING.md). Este archivo contiene las instrucciones sobre cómo participar, las reglas para contribuir, y cualquier otra información relevante sobre el proceso de contribución.
 
 ¡Gracias por tu interés en contribuir al proyecto! Esperamos ver tus ideas y aportes pronto.
