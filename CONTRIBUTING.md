@@ -22,11 +22,11 @@ Siguiendo estas reglas y utilizando los templates disponibles, podremos mantener
 ## Listado de templates:
 ### Discussion:
 Se tienen que copiar y pegar a la hora de generar una nueva entrada.
-- [RFC](DISCUSSION_TEMPLATE/rfc.md)
-- [IDEA](DISCUSSION_TEMPLATE/idea.md)
+- [RFC](.github/DISCUSSION_TEMPLATE/rfc.md)
+- [IDEA](.github/DISCUSSION_TEMPLATE/idea.md)
 ### Issues:
 Automaticos al crear un issue
-- [BUG](ISSUE_TEMPLATE/bug_report.md)
+- [BUG](.github/ISSUE_TEMPLATE/bug_report.md)
 
 ## Differencias entre las contribuciones:
 ### Idea:
