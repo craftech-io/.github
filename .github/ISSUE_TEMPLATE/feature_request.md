@@ -4,19 +4,26 @@ about: Suggest an idea for this project
 
 ---
 
-## Is your request related to a new offering from AWS?
-Is this functionality available in the [AWS provider for Terraform](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)? See [CHANGELOG.md](https://github.com/hashicorp/terraform-provider-aws/blob/main/CHANGELOG.md), too.
-  - No 🛑: please wait to file a request until the functionality is avaialble in the AWS provider
-  - Yes ✅: please list the AWS provider version which introduced this functionality
+## Feature Request
 
-## Is your request related to a problem? Please describe.
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when ... -->
+### Description
+[Provide a clear and concise description of the new feature you're requesting.]
 
-## Describe the solution you'd like.
-<!-- A clear and concise description of what you want to happen -->
+### Use Case
+[Explain the specific use case or scenario where this new feature would be beneficial.]
 
-## Describe alternatives you've considered.
-<!-- A clear and concise description of any alternative solutions or functionality you've considered -->
+### Proposed Solution
+[If you have any suggestions or ideas on how this feature could be implemented, please share them here.]
 
-## Additional context
-<!-- Add any other context or screenshots about the feature request here -->
+### Impact
+[Discuss any potential impact this feature might have on existing functionality or workflows.]
+
+### Dependencies
+[Note any dependencies or prerequisites required for implementing this feature.]
+
+### Additional Context
+[Add any additional context, screenshots, or examples that might help clarify the feature request.]
+
+### Comunity Solutions
+Are there any existing features available in the [community](https://github.com/terraform-aws-modules).
+  - Yes ✅: please add references to this functionality to compare and validate the solution.
