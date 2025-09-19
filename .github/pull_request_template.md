@@ -18,10 +18,17 @@
 <!-- Add user-facing release notes here. These will be appended to the chart’s release notes -->
 
 ### ✨ New Features
+
 -
 
 ### 🐛 Bug Fixes
+
+-
+
+### ⚠️ Breaking changes
+
 -
 
 ### 📚 Documentation
+
 -
