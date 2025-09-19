@@ -23,5 +23,8 @@
 ### 🐛 Bug Fixes
 -
 
+### ⚠️ Breaking changes
+- 
+
 ### 📚 Documentation
 -
