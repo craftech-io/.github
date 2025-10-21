@@ -1,0 +1,62 @@
+name: Documentation request
+about: Request new documentation, examples, or code explanations
+title: "[DOCS] "
+labels: ["documentation"]
+assignees: ''
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve our documentation. Please provide as much detail as possible.
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: What type of documentation do you need?
+      description: Choose the option that best describes your request.
+      options:
+        - Documentation Improvement (e.g., explain an existing feature better)
+        - New Documentation (e.g., document a missing feature or concept)
+        - New Example (e.g., add a new `main.tf` example for a specific use case)
+        - Code Explanation (e.g., clarify a specific block of code)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description
+      description: A clear and concise description of what is missing or what needs clarification.
+      placeholder: |
+        e.g., "The documentation for the 'auto_scaling' variable is unclear. It doesn't explain how 'min_size' and 'max_size' interact."
+        or "I need an example of how to use this module with a custom IAM role."
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected-component
+    attributes:
+      label: Affected Component / Code Block
+      description: |
+        Optional: Link to the file, component, or paste the code block you need help with.
+        You can use (```) to format code blocks.
+      placeholder: |
+        e.g., "See craftech-io/my-module/main.tf (lines 50-65)"
+        or
+        ```hcl
+        resource "aws_instance" "example" {
+          # ...
+        }
+        ```
+      render: hcl # Puedes cambiar 'hcl' a 'bash', 'yaml', etc., según lo que más esperes
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the documentation request here. (Puedes arrastrar y soltar imágenes).
+    validations:
+      required: false
