@@ -1,0 +1,63 @@
+name: "RFC"
+title: "[RFC]"
+labels:
+  - "rfc"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An RFC (Request for Comments) is intended for proposing significant changes. Please be as detailed as possible.
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivation"
+      description: "This section must include the reason for the RFC. As with every other section, additional detail and context may be added over time."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "This section should include the high level summary of the change being discussed."
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: "Use Cases"
+      description: "This section should include some examples of how the change may be used at Craftech."
+    validations:
+      required: true
+
+  - type: textarea
+    id: detailed-design
+    attributes:
+      label: "Detailed Design"
+      description: "This section should include a high level of detail of exactly what is being discussed. This may include more subsections, diagrams, and any additional information that can help the reviewers."
+    validations:
+      required: true
+
+  - type: textarea
+    id: adoption-strategy
+    attributes:
+      label: "Adoption Strategy"
+      description: "This section should describe how Craftech can transition to adopting the change proposed."
+    validations:
+      required: false
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: "Resources (Optional)"
+      description: "Include any additional resources that might be interesting to the reader (e.g., links to documentation, other repositories, diagrams)."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Q&A
+        Questions and comments on the RFC may be submitted in this discussion itself or could be moved to Craftech's Slack Q&A
