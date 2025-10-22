@@ -1,0 +1,71 @@
+name: Feature request
+about: Suggest an idea for this project
+title: "[FEATURE] "
+labels: ["enhancement"]
+assignees: ''
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a clear and concise description of the new feature you're requesting.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Explain the specific use case or scenario where this new feature would be beneficial.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: If you have any suggestions or ideas on how this feature could be implemented, please share them here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Discuss any potential impact this feature might have on existing functionality or workflows (e.g., breaking changes).
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Note any dependencies or prerequisites required for implementing this feature.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: community-check
+    attributes:
+      label: Community Solutions
+      description: Are there any existing features available in the community (e.g., https://github.com/terraform-aws-modules)?
+      options:
+        - label: Yes, a similar solution already exists.
+          required: false
+
+  - type: textarea
+    id: community-references
+    attributes:
+      label: Community Solution References
+      description: If you checked "Yes" above, please add references to this functionality to compare and validate the solution.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any additional context, screenshots, or examples that might help clarify the feature request. (Puedes arrastrar y soltar imágenes aquí).
+    validations:
+      required: false

@@ -1,0 +1,35 @@
+title: "[IDEA]"
+labels: ["idea"]
+body:
+- type: markdown
+  attributes:
+  value: |
+    Thank you for proposing a new idea.
+    Don't worry about having all the details worked out; focus on the problem and the proposed solution.
+
+- type: textarea
+  id: motivation
+  attributes:
+    label: What is the problem or opportunity? (The need)
+    description: "Describe the need this idea seeks to address. Why is it important? What problem does it solve?"
+    placeholder: "Ex: Currently, it is difficult [...], which causes [...]. This idea proposes [...] to solve it."
+  validations:
+    required: true
+
+- type: textarea
+  id: suggested-implementation
+  attributes:
+    label: How could it be implemented? (The technical proposal)
+    description: "Give us an overview of how you think this could work. It doesn't have to be a final design."
+    placeholder: "Ex: You could add a new module [...], modify the file [...], or use this reference [...]"
+    render: hcl
+  validations:
+    required: true
+
+- type: textarea
+  id: additional-context
+  attributes:
+    label: Additional Context (Optional)
+    description: "Anything else we should know? (Potential benefits, challenges, screenshots, links to references, etc.)"
+  validations:
+    required: false
