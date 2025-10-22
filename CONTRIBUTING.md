@@ -3,7 +3,7 @@
 ## Index
 
 1. [Introduction](#introduction)
-2. [How to Contribute: Two Main Paths](#how-to-contribute-two-main-paths-)
+2. [How to Contribute: Two Main Paths](#how-to-contribute-two-main-paths)
     1. [Proposing Changes, Ideas, and Experiments (Discussions)](#a-proposing-changes-ideas-and-experiments-discussions)
         1. [When to Use Discussions](#when-to-use-discussions)
         2. [Discussion Categories](#discussion-categories)
@@ -27,7 +27,7 @@ First and foremost, thank you for your time and dedication to contributing! At C
 
 This document outlines our standard process, designed to ensure quality, organization, and efficiency, whether you're proposing a new idea or implementing a change in the code.
 
-# How to Contribute: Two Main Paths <a name="how-to-contribute"></a>
+# How to Contribute: Two Main Paths
 
 There are two main ways to contribute, depending on the nature of your input: through Discussions for proposals and ideas, or through Issues for specific tasks and bugs.
 
