@@ -57,6 +57,6 @@ body:
     id: additional-context
     attributes:
       label: Additional Context
-      description: Add any other context or screenshots about the documentation request here. (Puedes arrastrar y soltar imágenes).
+      description: Add any other context or screenshots about the documentation request here. (Drag and drop files here).
     validations:
       required: false
