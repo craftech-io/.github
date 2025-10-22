@@ -1,4 +1,3 @@
-name: "Laboratory"
 title: "[LAB]"
 labels:
   - "laboratory"
@@ -40,8 +39,7 @@ body:
     id: technical-proposal
     attributes:
       label: "Technical Proposal / Implementation"
-      description: "Describe the architecture, services, tools, or configurations you are testing. (You can paste diagrams, code, etc.)"
-      placeholder: "" 
+      description: "Describe the architecture, services, tools, or configurations you are testing. (You can paste diagrams, code, etc.)" 
     validations:
       required: true
 
