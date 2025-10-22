@@ -1,5 +1,7 @@
-title: "[LAB] "
-labels: ["experiment"]
+name: "Laboratory"
+title: "[LAB]"
+labels:
+  - "laboratory"
 body:
   - type: markdown
     attributes:
@@ -9,7 +11,7 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Experiment Summary
+      label: "Experiment Summary"
       description: "Describe in 1-2 sentences what this lab case is about and its objective."
     validations:
       required: true
@@ -17,7 +19,7 @@ body:
   - type: dropdown
     id: lab-type
     attributes:
-      label: Lab Case Type
+      label: "Lab Case Type"
       description: "Select the main goal of this work."
       options:
         - "Proof of Concept (PoC) (Reusable solution for other clients/projects)"
@@ -28,7 +30,7 @@ body:
   - type: textarea
     id: motivation
     attributes:
-      label: Problem or Opportunity
+      label: "Problem or Opportunity"
       description: "What specific problem are you solving or what opportunity are you exploring?"
       placeholder: "e.g., 'The current setup for X is manual and error-prone...' or 'Client Y needs Z, and this could be used for everyone...'"
     validations:
@@ -37,16 +39,16 @@ body:
   - type: textarea
     id: technical-proposal
     attributes:
-      label: Technical Proposal / Implementation
+      label: "Technical Proposal / Implementation"
       description: "Describe the architecture, services, tools, or configurations you are testing. (You can paste diagrams, code, etc.)"
-      render: yaml # You can change this to hcl, bash, etc.
+      placeholder: "" 
     validations:
       required: true
 
   - type: textarea
     id: expected-impact
     attributes:
-      label: Expected Impact or Success Criteria
+      label: "Expected Impact or Success Criteria"
       description: "What does success look like for this experiment? How could this benefit other teams or clients?"
       placeholder: "e.g., 'Reduce deployment time by 50%' or 'Create a reusable Terraform module for...'"
     validations:
@@ -55,7 +57,7 @@ body:
   - type: textarea
     id: discussion-points
     attributes:
-      label: Discussion Points or Questions (Invite collaboration!)
+      label: "Discussion Points or Questions (Invite collaboration!)"
       description: "This is the key space. What would you like feedback on? What questions do you have for other teams?"
       placeholder: "Has anyone used this tool before? What do you think of this architecture? Do you see any risks?"
     validations:
