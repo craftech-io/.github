@@ -1,8 +1,7 @@
 name: Documentation request
-about: Request new documentation, examples, or code explanations
+description: Request new documentation, examples, or code explanations
 title: "[DOCS] "
 labels: ["documentation"]
-assignees: ''
 
 body:
   - type: markdown
