@@ -49,7 +49,7 @@ body:
           # ...
         }
         ```
-      render: hcl # Puedes cambiar 'hcl' a 'bash', 'yaml', etc., según lo que más esperes
+      render: hcl
     validations:
       required: false
 
