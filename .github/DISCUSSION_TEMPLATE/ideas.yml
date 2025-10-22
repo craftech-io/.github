@@ -1,5 +1,5 @@
-name: "Idea"
-title: "[IDEA]"
+title: "Idea propossal"
+description: "Share your ideas with all Craftech"
 labels: ["idea"]
 body:
   - type: markdown
