@@ -22,19 +22,19 @@ Aquí encontrarás herramientas, módulos de Terraform, ejemplos de infraestruct
 
 ## Tabla de Contenidos
 
-- [AWS Lambda y Serverless](#aws-lambda-y-serverless) (5)
+- [AWS Lambda y Serverless](#aws-lambda-y-serverless) (4)
 - [CI/CD y Acciones de GitHub](#ci-cd-y-acciones-de-github) (6)
-- [Herramientas CLI y Automatización](#herramientas-cli-y-automatización) (25)
-- [Infraestructura como Código](#infraestructura-como-código) (12)
+- [Herramientas CLI y Automatización](#herramientas-cli-y-automatización) (23)
+- [Infraestructura como Código](#infraestructura-como-código) (10)
 - [Integraciones de Monitoreo y Alertas](#integraciones-de-monitoreo-y-alertas) (11)
-- [Integración con Port.io](#integración-con-port.io) (2)
+- [Integración con Port.io](#integración-con-port.io) (8)
 - [Kubernetes & EKS](#kubernetes--eks) (22)
 - [Módulos de Base de Datos](#módulos-de-base-de-datos) (2)
 - [Módulos de Infraestructura AWS](#módulos-de-infraestructura-aws) (16)
 - [Módulos de Redes](#módulos-de-redes) (2)
 - [Módulos de Seguridad e Identidad](#módulos-de-seguridad-e-identidad) (1)
 - [Optimización de Costos](#optimización-de-costos) (2)
-- [Otros](#otros) (16)
+- [Otros](#otros) (15)
 - [Referencias y Ejemplos](#referencias-y-ejemplos) (8)
 - [Scripts y Utilidades](#scripts-y-utilidades) (6)
 - [Sitios Web y Documentación](#sitios-web-y-documentación) (3)
@@ -43,190 +43,190 @@ Aquí encontrarás herramientas, módulos de Terraform, ejemplos de infraestruct
 
 ## AWS Lambda y Serverless
 
-- **[aws-budget-alerts](https://github.com/craftech-io/aws-budget-alerts)** - Sin descripción disponible
-- **[aws-elastic-beanstalk-nighttime-shutdown](https://github.com/craftech-io/aws-elastic-beanstalk-nighttime-shutdown)** - Sin descripción disponible
-- **[module-security-lambda](https://github.com/craftech-io/module-security-lambda)** - Sin descripción disponible
-- **[port-actions](https://github.com/craftech-io/port-actions)** - Este repositorio contiene recursos para desplegar un backend sin servidor para port.io para usar en acciones de auto-servicio
-- **[slack-aws-cloudwatch-alerts-lambda](https://github.com/craftech-io/slack-aws-cloudwatch-alerts-lambda)** - Sin descripción disponible
+- **[aws-budget-alerts](https://github.com/craftech-io/aws-budget-alerts)** - Solución serverless para presupuestos AWS
+- **[aws-elastic-beanstalk-nighttime-shutdown](https://github.com/craftech-io/aws-elastic-beanstalk-nighttime-shutdown)** - Apagado programado de Elastic Beanstalk
+- **[module-security-lambda](https://github.com/craftech-io/module-security-lambda)** - Funciones Lambda de seguridad
+- **[slack-aws-cloudwatch-alerts-lambda](https://github.com/craftech-io/slack-aws-cloudwatch-alerts-lambda)** - Alertas de CloudWatch a Slack
 
 ## CI/CD y Acciones de GitHub
 
-- **[eks-helm-deploy-action](https://github.com/craftech-io/eks-helm-deploy-action)** - Acción de GitHub para desplegar en clusters de AWS EKS usando helm
-- **[eks-helmfile-deploy-action](https://github.com/craftech-io/eks-helmfile-deploy-action)** - Una acción de GitHub para desplegar un gráfico usando helmfile
-- **[gitci_templates](https://github.com/craftech-io/gitci_templates)** - Sin descripción disponible
-- **[module-ci](https://github.com/craftech-io/module-ci)** - Módulos para automatizar tareas comunes de CI, como instalar dependencias, ejecutar pruebas y publicar versiones
-- **[publish-terraform-module-action](https://github.com/craftech-io/publish-terraform-module-action)** - Sin descripción disponible
-- **[slack-action](https://github.com/craftech-io/slack-action)** - Notificar el resultado de las Acciones de GitHub a un canal de Slack sobre el estado de los flujos de trabajo
+- **[eks-helm-deploy-action](https://github.com/craftech-io/eks-helm-deploy-action)** - Despliegue EKS con Helm
+- **[eks-helmfile-deploy-action](https://github.com/craftech-io/eks-helmfile-deploy-action)** - Despliegue con Helmfile
+- **[gitci_templates](https://github.com/craftech-io/gitci_templates)** - Plantillas GitLab CI/CD
+- **[module-ci](https://github.com/craftech-io/module-ci)** - Automatización CI
+- **[publish-terraform-module-action](https://github.com/craftech-io/publish-terraform-module-action)** - Publicador módulos Terraform
+- **[slack-action](https://github.com/craftech-io/slack-action)** - Notificaciones Slack
 
 ## Herramientas CLI y Automatización
 
-- **[.github](https://github.com/craftech-io/.github)** - Repositorio central de configuración y estándares de GitHub para la organización: workflows, plantillas y políticas compartidas.
-- **[alpine-aws-cli](https://github.com/craftech-io/alpine-aws-cli)** - Sin descripción disponible
-- **[aws-exams-app](https://github.com/craftech-io/aws-exams-app)** - Sin descripción disponible
+- **[.github](https://github.com/craftech-io/.github)** - Config. central GitHub
+- **[alpine-aws-cli](https://github.com/craftech-io/alpine-aws-cli)** - Imagen Docker Alpine con AWS CLI
+- **[aws-exams-app](https://github.com/craftech-io/aws-exams-app)** - Aplicación de exámenes AWS
 - **[bash-scripts](https://github.com/craftech-io/bash-scripts)** - Scripts bash útiles - ¡Que viva BASH!
-- **[cloudformation-templates](https://github.com/craftech-io/cloudformation-templates)** - Sin descripción disponible
-- **[cloudformation_atlantis](https://github.com/craftech-io/cloudformation_atlantis)** - Sin descripción disponible
-- **[craftech](https://github.com/craftech-io/craftech)** - Sin descripción disponible
-- **[craftech-cli](https://github.com/craftech-io/craftech-cli)** - Sin descripción disponible
-- **[craftech-steampipe](https://github.com/craftech-io/craftech-steampipe)** - Este repositorio centraliza las consultas de Steampipe y la generación de dashboards con Powerpipe, todo dockerizado para un entorno de desarrollo con...
+- **[cloudformation-templates](https://github.com/craftech-io/cloudformation-templates)** - Templates CloudFormation (IAM, presupuestos)
+- **[cloudformation_atlantis](https://github.com/craftech-io/cloudformation_atlantis)** - Templates CloudFormation para Atlantis
+- **[craftech](https://github.com/craftech-io/craftech)** - Centro de sugerencias e issues
+- **[craftech-cli](https://github.com/craftech-io/craftech-cli)** - CLI interna para automatización
+- **[craftech-steampipe](https://github.com/craftech-io/craftech-steampipe)** - Steampipe y dashboards Powerpipe
 - **[docs](https://github.com/craftech-io/docs)** - Documentación de Craftech
-- **[fork-dockertron](https://github.com/craftech-io/fork-dockertron)** - Es un repositorio forkeado de Sleakops, la idea es que pase a ser una lib desde sleakops para integrar a la cli. Cuando eso pase este repositorio se e...
-- **[hubspot-reports-automation](https://github.com/craftech-io/hubspot-reports-automation)** - Repositorio con script que automatiza la creación de reportes con datos de HubSpot
-- **[infrastructure-live-generator](https://github.com/craftech-io/infrastructure-live-generator)** - Resources for an automated generation of infrastructure live repositories
-- **[mcp_cli](https://github.com/craftech-io/mcp_cli)** - Este repositorio contiene una herramienta de línea de comandos (CLI) que actúa como un agente de DevOps inteligente. Utiliza el Model Context Protocol...
-- **[module-installer](https://github.com/craftech-io/module-installer)** - Un script para facilitar la instalación de módulos de script
-- **[MSP](https://github.com/craftech-io/MSP)** - Sin descripción disponible
-- **[n8n-craftech](https://github.com/craftech-io/n8n-craftech)** - Infraestructura base para el despliegue de n8n en AWS utilizando VPC, ALB, EC2 y RDS PostgreSQL.
-- **[pipeline-generator](https://github.com/craftech-io/pipeline-generator)** - Python CLI que genera CI/CD para repositorios de infraestructura en vivo
-- **[port-aws-auto-tag](https://github.com/craftech-io/port-aws-auto-tag)** - Scripts made it in Python for AWS resource tagging usin OpenAI API
-- **[port-io-manager](https://github.com/craftech-io/port-io-manager)** - Port.io Manager IaC
-- **[pre-commit](https://github.com/craftech-io/pre-commit)** - Una colección de hooks de pre-commit utilizados por Craftech
-- **[python-scripts](https://github.com/craftech-io/python-scripts)** - Repositorio para scripts de Python
-- **[registry](https://github.com/craftech-io/registry)** - Este es el registro privado de Craftech
-- **[terragrunt-dependencies-updater](https://github.com/craftech-io/terragrunt-dependencies-updater)** - Sin descripción disponible
-- **[terragrunt-deployer](https://github.com/craftech-io/terragrunt-deployer)** - Un script de Python para desplegar con Terragrunt
+- **[fork-dockertron](https://github.com/craftech-io/fork-dockertron)** - Fork de Sleakops para CLI
+- **[hubspot-reports-automation](https://github.com/craftech-io/hubspot-reports-automation)** - Automatización HubSpot
+- **[infrastructure-live-generator](https://github.com/craftech-io/infrastructure-live-generator)** - Generador repos infraestructura
+- **[mcp_cli](https://github.com/craftech-io/mcp_cli)** - CLI DevOps inteligente con MCP
+- **[module-installer](https://github.com/craftech-io/module-installer)** - Script instalador módulos
+- **[MSP](https://github.com/craftech-io/MSP)** - Monorepo de herramientas MSP
+- **[n8n-craftech](https://github.com/craftech-io/n8n-craftech)** - Infraestructura n8n AWS
+- **[pipeline-generator](https://github.com/craftech-io/pipeline-generator)** - Generador pipelines CI/CD
+- **[pre-commit](https://github.com/craftech-io/pre-commit)** - Hooks pre-commit Craftech
+- **[python-scripts](https://github.com/craftech-io/python-scripts)** - Colección scripts Python
+- **[registry](https://github.com/craftech-io/registry)** - Registro privado Craftech
+- **[terragrunt-dependencies-updater](https://github.com/craftech-io/terragrunt-dependencies-updater)** - CLI para actualizar módulos
+- **[terragrunt-deployer](https://github.com/craftech-io/terragrunt-deployer)** - Deployer Terragrunt
 
 ## Infraestructura como Código
 
-- **[cloudpiles-sidom-infra-live](https://github.com/craftech-io/cloudpiles-sidom-infra-live)** - Repo para levnatar la PoC de Sidom / Cloudpiles
-- **[craftech-infrastructure-live](https://github.com/craftech-io/craftech-infrastructure-live)** - Sin descripción disponible
-- **[infrastructure-live-intelligential](https://github.com/craftech-io/infrastructure-live-intelligential)** - Live repository for intelligential
-- **[intro-to-terratest](https://github.com/craftech-io/intro-to-terratest)** - Sin descripción disponible
-- **[module-data-storage](https://github.com/craftech-io/module-data-storage)** - Módulos Terraform para configurar mejores prácticas para depósitos S3, EBS, EFS y más servicios de almacenamiento.
-- **[module-ec2-server](https://github.com/craftech-io/module-ec2-server)** - Este repositorio contiene los recursos esenciales para administrar servidores EC2, con grupos de seguridad y datos de usuario
-- **[module-iam](https://github.com/craftech-io/module-iam)** - Código Terraform y scripts para crear recursos de IAM.
-- **[module-messaging](https://github.com/craftech-io/module-messaging)** - Repositorio para servicios de mensajería (SNS, SQS, Kinesis)
-- **[module-port](https://github.com/craftech-io/module-port)** - Módulos Terraform para desplegar modelos de puerto y exportadores
-- **[package-gitlab](https://github.com/craftech-io/package-gitlab)** - Un módulo de Craftech para desplegar Gitlab Community
-- **[port-idp-klap](https://github.com/craftech-io/port-idp-klap)** - Resources for Port IDP - Klap
-- **[terraform-aws-backup](https://github.com/craftech-io/terraform-aws-backup)** - Sin descripción disponible
+- **[cloudpiles-sidom-infra-live](https://github.com/craftech-io/cloudpiles-sidom-infra-live)** - PoC Sidom/Cloudpiles
+- **[craftech-infrastructure-live](https://github.com/craftech-io/craftech-infrastructure-live)** - Infraestructura live Terragrunt
+- **[infrastructure-live-intelligential](https://github.com/craftech-io/infrastructure-live-intelligential)** - Infraestructura live Intelligential
+- **[intro-to-terratest](https://github.com/craftech-io/intro-to-terratest)** - Ejemplos Terratest
+- **[module-data-storage](https://github.com/craftech-io/module-data-storage)** - Módulos almacenamiento
+- **[module-ec2-server](https://github.com/craftech-io/module-ec2-server)** - Módulos EC2
+- **[module-iam](https://github.com/craftech-io/module-iam)** - Módulos IAM
+- **[module-messaging](https://github.com/craftech-io/module-messaging)** - Módulos SNS/SQS/Kinesis
+- **[package-gitlab](https://github.com/craftech-io/package-gitlab)** - Módulo GitLab Community
+- **[terraform-aws-backup](https://github.com/craftech-io/terraform-aws-backup)** - Módulos de respaldos AWS
 
 ## Integraciones de Monitoreo y Alertas
 
-- **[alerthub](https://github.com/craftech-io/alerthub)** - Alerthub es un servicio escrito en Go que recibe los webhooks de alerta generados por Grafana Alerting, los normaliza y los almacena en una base de da...
-- **[aws-health-slack-notifier](https://github.com/craftech-io/aws-health-slack-notifier)** - Hub central de monitoreo de eventos de AWS Health en múltiples regiones. Centraliza notificaciones en Slack mediante Amazon Q Developer (Chat...
-- **[discord-amazon-budget-alerts](https://github.com/craftech-io/discord-amazon-budget-alerts)** - Una solución sin servidor usando AWS SAM para crear presupuestos de AWS con auto-ajuste y enviar alertas de costos a un canal de Discord.
-- **[discord-amazon-cost-anomaly-alerts](https://github.com/craftech-io/discord-amazon-cost-anomaly-alerts)** - Una solución sin servidor para enviar alertas de detección de anomalías de costos de AWS a un canal de Discord usando AWS Lambda y SAM.
-- **[discord-amazon-devops-guru-alerts-lambda](https://github.com/craftech-io/discord-amazon-devops-guru-alerts-lambda)** - Función AWS Lambda para enviar notificaciones de Discord desde Amazon DevOps Guru
-- **[discord-amazon-guardduty-alerts-lambda](https://github.com/craftech-io/discord-amazon-guardduty-alerts-lambda)** - Sin descripción disponible
-- **[discord-aws-cloudwatch-alerts-lambda](https://github.com/craftech-io/discord-aws-cloudwatch-alerts-lambda)** - Función Lambda de Python para alertas de AWS
-- **[discord-grafana-alerts-lambda](https://github.com/craftech-io/discord-grafana-alerts-lambda)** - Función AWS Lambda para enviar notificaciones de Discord desde Grafana
-- **[module-alarms](https://github.com/craftech-io/module-alarms)** - Sin descripción disponible
-- **[module-grafana-alerting](https://github.com/craftech-io/module-grafana-alerting)** - Un repositorio para módulos de Terraform de alertas de Grafana
-- **[module-monitoring](https://github.com/craftech-io/module-monitoring)** - Código Terraform y scripts para desplegar herramientas de observabilidad
+- **[alerthub](https://github.com/craftech-io/alerthub)** - Normalizador de webhooks Grafana
+- **[aws-health-slack-notifier](https://github.com/craftech-io/aws-health-slack-notifier)** - Monitor AWS Health a Slack
+- **[discord-amazon-budget-alerts](https://github.com/craftech-io/discord-amazon-budget-alerts)** - Presupuestos AWS a Discord
+- **[discord-amazon-cost-anomaly-alerts](https://github.com/craftech-io/discord-amazon-cost-anomaly-alerts)** - Anomalías de costos a Discord
+- **[discord-amazon-devops-guru-alerts-lambda](https://github.com/craftech-io/discord-amazon-devops-guru-alerts-lambda)** - DevOps Guru a Discord
+- **[discord-amazon-guardduty-alerts-lambda](https://github.com/craftech-io/discord-amazon-guardduty-alerts-lambda)** - GuardDuty a Discord
+- **[discord-aws-cloudwatch-alerts-lambda](https://github.com/craftech-io/discord-aws-cloudwatch-alerts-lambda)** - Alertas AWS Lambda
+- **[discord-grafana-alerts-lambda](https://github.com/craftech-io/discord-grafana-alerts-lambda)** - Grafana a Discord
+- **[module-alarms](https://github.com/craftech-io/module-alarms)** - Módulos alarmas CloudWatch
+- **[module-grafana-alerting](https://github.com/craftech-io/module-grafana-alerting)** - Módulos alertas Grafana
+- **[module-monitoring](https://github.com/craftech-io/module-monitoring)** - Herramientas observabilidad
 
 ## Integración con Port.io
 
-- **[port-actions-catalog](https://github.com/craftech-io/port-actions-catalog)** - Catálogo de acciones definidas para Port
-- **[port-actions-module](https://github.com/craftech-io/port-actions-module)** - Módulo base para acciones de Port
+- **[module-port](https://github.com/craftech-io/module-port)** - Módulos Port modelos
+- **[port-actions-catalog](https://github.com/craftech-io/port-actions-catalog)** - Catálogo acciones Port.io
+- **[port-actions-module](https://github.com/craftech-io/port-actions-module)** - Módulo base acciones Port
+- **[port-actions](https://github.com/craftech-io/port-actions)** - Backend serverless Port.io
+- **[port-aws-auto-tag](https://github.com/craftech-io/port-aws-auto-tag)** - Auto-tagging AWS con OpenAI
+- **[port-craftech](https://github.com/craftech-io/port-craftech)** - Integraciones Port.io Craftech
+- **[port-idp-klap](https://github.com/craftech-io/port-idp-klap)** - Port IDP Klap
+- **[port-io-manager](https://github.com/craftech-io/port-io-manager)** - Port.io Manager IaC
 
 ## Kubernetes & EKS
 
-- **[argo-rollouts-meetup](https://github.com/craftech-io/argo-rollouts-meetup)** - Repositorio con la configuración y archivos necesarios para desarrollar la demo para la meetup de ArgoCD+ArgoRollouts+ArgoNotifications
-- **[argocd-diff-preview](https://github.com/craftech-io/argocd-diff-preview)** - Guía de implementación de ArgoCD Diff Preview | Automatice el análisis del impacto de la infraestructura inyectando diffs de aplicaciones de ArgoCD ...
-- **[argocd-gitops-demo](https://github.com/craftech-io/argocd-gitops-demo)** - Sin descripción disponible
-- **[argocd-repository-templates](https://github.com/craftech-io/argocd-repository-templates)** - Sin descripción disponible
-- **[ci-tools](https://github.com/craftech-io/ci-tools)** - Repositorio para imagen de docker con terraform/terragrunt y terraform/terratest.
-- **[demo-eks-scaling-with-keda-and-karpenter](https://github.com/craftech-io/demo-eks-scaling-with-keda-and-karpenter)** - Aplicación de escalado de muestra con KEDA y Karpenter en Amazon EKS utilizando nodos de Fargate y Terraform
-- **[eks-addons](https://github.com/craftech-io/eks-addons)** - Este repositorio contiene una colección de módulos Terraform diseñados para simplificar la instalación y administración de complementos en clusters de Amazon EKS
-- **[eks-cron-shutdown](https://github.com/craftech-io/eks-cron-shutdown)** - Aplicación en Python para el apagado y encendido programado de clusters EKS (autoscaling groups y fargate) para reducción de costos.
-- **[eks-management](https://github.com/craftech-io/eks-management)** - Este repositorio proporciona una colección de módulos Terraform y configuraciones para desplegar herramientas de administración en clusters de Amazon EKS.
-- **[eks-nightly-shutdown-lambda](https://github.com/craftech-io/eks-nightly-shutdown-lambda)** - Una función AWS Lambda sin servidor que apaga automáticamente tu cluster de Amazon EKS fuera de las horas para reducir costos
+- **[argo-rollouts-meetup](https://github.com/craftech-io/argo-rollouts-meetup)** - Demo meetup ArgoCD/Rollouts
+- **[argocd-diff-preview](https://github.com/craftech-io/argocd-diff-preview)** - ArgoCD Diff Preview
+- **[argocd-gitops-demo](https://github.com/craftech-io/argocd-gitops-demo)** - Demo ArgoCD GitOps
+- **[argocd-repository-templates](https://github.com/craftech-io/argocd-repository-templates)** - Templates repositorios ArgoCD
+- **[ci-tools](https://github.com/craftech-io/ci-tools)** - Docker terraform/terragrunt
+- **[demo-eks-scaling-with-keda-and-karpenter](https://github.com/craftech-io/demo-eks-scaling-with-keda-and-karpenter)** - Demo escalado EKS/KEDA
+- **[eks-addons](https://github.com/craftech-io/eks-addons)** - Módulos add-ons EKS
+- **[eks-cron-shutdown](https://github.com/craftech-io/eks-cron-shutdown)** - Apagado programado clusters EKS
+- **[eks-management](https://github.com/craftech-io/eks-management)** - Herramientas gestión EKS
+- **[eks-nightly-shutdown-lambda](https://github.com/craftech-io/eks-nightly-shutdown-lambda)** - Shutdown nocturno EKS
 - **[helm-charts](https://github.com/craftech-io/helm-charts)** - Gráficos Helm de Craftech
-- **[helm-charts-reference](https://github.com/craftech-io/helm-charts-reference)** - Sin descripción disponible
+- **[helm-charts-reference](https://github.com/craftech-io/helm-charts-reference)** - Charts Helm de referencia
 - **[k6](https://github.com/craftech-io/k6)** - Despliegue de k6 para K8s
 - **[kubernetes-application](https://github.com/craftech-io/kubernetes-application)** - Gráfico Helm de aplicación kube
-- **[kubernetes-env-to-secrets](https://github.com/craftech-io/kubernetes-env-to-secrets)** - Convertir archivos de entorno a secretos de Kubernetes
-- **[minikube-cluster](https://github.com/craftech-io/minikube-cluster)** - Cluster de Minikube con servicios principales de K8s
-- **[module-eks](https://github.com/craftech-io/module-eks)** - Código Terraform y scripts para desplegar un cluster de Amazon Elastic Kubernetes Service (EKS).
-- **[module-eks-automode](https://github.com/craftech-io/module-eks-automode)** - Este repositorio contiene los recursos esenciales para administrar el plano de control de un cluster de Amazon Elastic Kubernetes Service (EKS). Tambi...
-- **[shutdown-modules](https://github.com/craftech-io/shutdown-modules)** - Este repositorio contiene módulos Terraform diseñados para automatizar el apagado e inicio de recursos de AWS, ayudando a optimizar costos
-- **[terraform-kubernetes-application](https://github.com/craftech-io/terraform-kubernetes-application)** - Sin descripción disponible
-- **[vault-crd](https://github.com/craftech-io/vault-crd)** - Vault CRD para compartir secretos de Vault con Kubernetes
-- **[workshop-opentelemetry](https://github.com/craftech-io/workshop-opentelemetry)** - Sin descripción disponible
+- **[kubernetes-env-to-secrets](https://github.com/craftech-io/kubernetes-env-to-secrets)** - Env a secretos Kubernetes
+- **[minikube-cluster](https://github.com/craftech-io/minikube-cluster)** - Cluster Minikube preconfigured
+- **[module-eks](https://github.com/craftech-io/module-eks)** - Módulos cluster EKS
+- **[module-eks-automode](https://github.com/craftech-io/module-eks-automode)** - Módulos EKS Automode
+- **[shutdown-modules](https://github.com/craftech-io/shutdown-modules)** - Módulos shutdown/startup AWS
+- **[terraform-kubernetes-application](https://github.com/craftech-io/terraform-kubernetes-application)** - Helm chart Kubernetes (DEPRECATED)
+- **[vault-crd](https://github.com/craftech-io/vault-crd)** - Vault CRD para Kubernetes
+- **[workshop-opentelemetry](https://github.com/craftech-io/workshop-opentelemetry)** - Workshop EKS OpenTelemetry
 
 ## Módulos de Base de Datos
 
-- **[module-databases](https://github.com/craftech-io/module-databases)** - Código Terraform y scripts para desplegar recursos de bases de datos relacionales (por ejemplo: MySQL, PostgreSQL, Redshift) en AWS
-- **[module-dms](https://github.com/craftech-io/module-dms)** - Sin descripción disponible
+- **[module-databases](https://github.com/craftech-io/module-databases)** - Módulos bases de datos
+- **[module-dms](https://github.com/craftech-io/module-dms)** - Módulos DMS (Database Migration)
 
 ## Módulos de Infraestructura AWS
 
-- **[module-api-gateway](https://github.com/craftech-io/module-api-gateway)** - Código Terraform y scripts para desplegar AWS API Gateway
-- **[module-athena](https://github.com/craftech-io/module-athena)** - Módulos de Terraform para la configuración y gestión de AWS Athena (bases de datos, grupos de trabajo y catálogos).
-- **[module-beanstalk](https://github.com/craftech-io/module-beanstalk)** - Un módulo Terraform elástico de Beanstalk para desplegar Elastic Beanstalk | AWS
-- **[module-cloudfront](https://github.com/craftech-io/module-cloudfront)** - Código Terraform y scripts para desplegar una distribución de Amazon CloudFront (CDN)
-- **[module-ecr](https://github.com/craftech-io/module-ecr)** - Este módulo Terraform se utiliza para crear ECR en AWS
-- **[module-identity-center](https://github.com/craftech-io/module-identity-center)** - Un módulo Terraform que le permite administrar toda una estructura de Identity Center en AWS
-- **[module-kafka](https://github.com/craftech-io/module-kafka)** - Código Terraform y scripts para desplegar un cluster de Amazon Managed Streaming for Apache Kafka (MSK).
-- **[module-kvs](https://github.com/craftech-io/module-kvs)** - Código Terraform y scripts para desplegar clusters de almacén de clave-valor (por ejemplo: redis o memcached) usando Amazon ElastiCache
-- **[module-load-balancer](https://github.com/craftech-io/module-load-balancer)** - Código Terraform y scripts para desplegar Load Balancers en AWS
-- **[module-migration](https://github.com/craftech-io/module-migration)** - Sin descripción disponible
-- **[module-organizations](https://github.com/craftech-io/module-organizations)** - Sin descripción disponible
-- **[modules-azure](https://github.com/craftech-io/modules-azure)** - Paquetes para crear una configuración de redes virtuales (VNet) de mejores prácticas en Azure y tareas relacionadas con redes, como proxies
-- **[terraform-aws-acm](https://github.com/craftech-io/terraform-aws-acm)** - Módulo Terraform que crea y valida certificados ACM
-- **[terraform-aws-ecr](https://github.com/craftech-io/terraform-aws-ecr)** - Módulo Terraform que crea un AWS Elastic Container Registry
-- **[terraform-aws-lambda](https://github.com/craftech-io/terraform-aws-lambda)** - Módulos para desplegar y administrar funciones AWS Lambda
-- **[terraform-aws-service-catalog](https://github.com/craftech-io/terraform-aws-service-catalog)** - Catálogo de servicios para AWS
+- **[module-api-gateway](https://github.com/craftech-io/module-api-gateway)** - Módulos API Gateway
+- **[module-athena](https://github.com/craftech-io/module-athena)** - Módulos AWS Athena
+- **[module-beanstalk](https://github.com/craftech-io/module-beanstalk)** - Módulo Elastic Beanstalk
+- **[module-cloudfront](https://github.com/craftech-io/module-cloudfront)** - Módulos CloudFront (CDN)
+- **[module-ecr](https://github.com/craftech-io/module-ecr)** - Módulos ECR
+- **[module-identity-center](https://github.com/craftech-io/module-identity-center)** - Módulos Identity Center
+- **[module-kafka](https://github.com/craftech-io/module-kafka)** - Módulos MSK (Kafka)
+- **[module-kvs](https://github.com/craftech-io/module-kvs)** - Módulos ElastiCache
+- **[module-load-balancer](https://github.com/craftech-io/module-load-balancer)** - Módulos Load Balancers
+- **[module-migration](https://github.com/craftech-io/module-migration)** - Módulos migración infraestructura
+- **[module-organizations](https://github.com/craftech-io/module-organizations)** - Módulos AWS Organizations
+- **[modules-azure](https://github.com/craftech-io/modules-azure)** - Módulos VNet Azure
+- **[terraform-aws-acm](https://github.com/craftech-io/terraform-aws-acm)** - Módulo certificados ACM
+- **[terraform-aws-ecr](https://github.com/craftech-io/terraform-aws-ecr)** - Módulo ECR
+- **[terraform-aws-lambda](https://github.com/craftech-io/terraform-aws-lambda)** - Módulos funciones Lambda
+- **[terraform-aws-service-catalog](https://github.com/craftech-io/terraform-aws-service-catalog)** - Catálogo servicios AWS
 
 ## Módulos de Redes
 
-- **[module-networking](https://github.com/craftech-io/module-networking)** - Paquetes para crear una configuración de Virtual Private Cloud (VPC) de mejores prácticas en AWS y tareas relacionadas con redes, como proxies.
-- **[terraform-aws-route53](https://github.com/craftech-io/terraform-aws-route53)** - Módulo Terraform que crea recursos de Route53 en AWS
+- **[module-networking](https://github.com/craftech-io/module-networking)** - Módulos VPC AWS
+- **[terraform-aws-route53](https://github.com/craftech-io/terraform-aws-route53)** - Módulo Route53
 
 ## Módulos de Seguridad e Identidad
 
-- **[module-glue](https://github.com/craftech-io/module-glue)** - Sin descripción disponible
+- **[module-glue](https://github.com/craftech-io/module-glue)** - Módulos AWS Glue
 
 ## Optimización de Costos
 
-- **[aws-nuke](https://github.com/craftech-io/aws-nuke)** - Sin descripción disponible
-- **[aws-nuke-account-cleanser-example](https://github.com/craftech-io/aws-nuke-account-cleanser-example)** - Sin descripción disponible
+- **[aws-nuke](https://github.com/craftech-io/aws-nuke)** - Limpieza automática cuentas AWS
+- **[aws-nuke-account-cleanser-example](https://github.com/craftech-io/aws-nuke-account-cleanser-example)** - Framework limpieza cuentas AWS
 
 ## Otros
 
-- **[atlantis](https://github.com/craftech-io/atlantis)** - Archivos y configuraciones de Atlantis
-- **[aws-partner-hubspot-connector](https://github.com/craftech-io/aws-partner-hubspot-connector)** - Sin descripción disponible
-- **[chartmuseum-auth-server](https://github.com/craftech-io/chartmuseum-auth-server)** - Servidor de aplicaciones que proporciona tokens JWT para autenticación de ChartMuseum
-- **[clients](https://github.com/craftech-io/clients)** - Este repositorio se utilizará para almacenar recursos de clientes arbitrarios que aún no están listos para compartir
-- **[docker-templates](https://github.com/craftech-io/docker-templates)** - Este repositorio contiene plantillas para aplicaciones que fueron dockerizadas. Si es posible, incluya también un docker-compose
-- **[fast-tech-talks](https://github.com/craftech-io/fast-tech-talks)** - Sin descripción disponible
-- **[fifa](https://github.com/craftech-io/fifa)** - Sin descripción disponible
-- **[keda-examples](https://github.com/craftech-io/keda-examples)** - Repositorio para almacenar ejemplos de Keda
-- **[labs](https://github.com/craftech-io/labs)** - Repositorio central de utilidades, experimentos y desarrollos complementarios con valor reutilizable para la organización.
-- **[module-ecs](https://github.com/craftech-io/module-ecs)** - Este repositorio contiene los recursos esenciales para administrar clusters de ECS, tareas, servicios y otros.
-- **[package-vault](https://github.com/craftech-io/package-vault)** - Un módulo de Craftech para desplegar Hashicorp Vault
-- **[port-craftech](https://github.com/craftech-io/port-craftech)** - Integraciones y configuraciones para Getport.io específicas de Craftech.
-- **[tekton-ftt](https://github.com/craftech-io/tekton-ftt)** - Repositorio creado para propósitos de FTT
-- **[terralist](https://github.com/craftech-io/terralist)** - Administre sus módulos y proveedores con una API REST
-- **[verdaccio](https://github.com/craftech-io/verdaccio)** - Repositorio para imágenes de Docker de Verdaccio
-- **[wafr-custom-lenses](https://github.com/craftech-io/wafr-custom-lenses)** - Sin descripción disponible
+- **[atlantis](https://github.com/craftech-io/atlantis)** - Configuraciones Atlantis
+- **[aws-partner-hubspot-connector](https://github.com/craftech-io/aws-partner-hubspot-connector)** - Conector AWS Partner/HubSpot
+- **[chartmuseum-auth-server](https://github.com/craftech-io/chartmuseum-auth-server)** - Auth server ChartMuseum
+- **[clients](https://github.com/craftech-io/clients)** - Recursos clientes
+- **[docker-templates](https://github.com/craftech-io/docker-templates)** - Templates Docker
+- **[fast-tech-talks](https://github.com/craftech-io/fast-tech-talks)** - Materiales charlas tech
+- **[fifa](https://github.com/craftech-io/fifa)** - Experimentación interna
+- **[keda-examples](https://github.com/craftech-io/keda-examples)** - Ejemplos KEDA
+- **[labs](https://github.com/craftech-io/labs)** - Centro utilidades/experimentos
+- **[module-ecs](https://github.com/craftech-io/module-ecs)** - Módulos gestión ECS
+- **[package-vault](https://github.com/craftech-io/package-vault)** - Módulo Vault
+- **[tekton-ftt](https://github.com/craftech-io/tekton-ftt)** - Configuración Tekton FTT
+- **[terralist](https://github.com/craftech-io/terralist)** - Administrador módulos Terraform
+- **[verdaccio](https://github.com/craftech-io/verdaccio)** - Imágenes Docker Verdaccio
+- **[wafr-custom-lenses](https://github.com/craftech-io/wafr-custom-lenses)** - Lenses personalizados WAFR
 
 ## Referencias y Ejemplos
 
-- **[crossplane-demo](https://github.com/craftech-io/crossplane-demo)** - Sin descripción disponible
-- **[gcp-infrastructure-live-reference](https://github.com/craftech-io/gcp-infrastructure-live-reference)** - Sin descripción disponible
-- **[infrastructure-live-reference](https://github.com/craftech-io/infrastructure-live-reference)** - Repositorio de infraestructura en vivo de ejemplo para referencia
-- **[infrastructure-module-reference](https://github.com/craftech-io/infrastructure-module-reference)** - Repositorio de módulos de infraestructura de ejemplo
-- **[infrastructure-module-reference-security](https://github.com/craftech-io/infrastructure-module-reference-security)** - Sin descripción disponible
-- **[infrastructure-multi-account-reference](https://github.com/craftech-io/infrastructure-multi-account-reference)** - Repositorio de infraestructura en vivo de ejemplo
-- **[local-environment-reference](https://github.com/craftech-io/local-environment-reference)** - Un repositorio de referencia para crear la configuración del entorno local usando Kind y Skaffold
-- **[terraform-template](https://github.com/craftech-io/terraform-template)** - Este repositorio contiene la plantilla para crear módulos Terraform mantenidos por Craftech
+- **[crossplane-demo](https://github.com/craftech-io/crossplane-demo)** - Demo Crossplane IaC
+- **[gcp-infrastructure-live-reference](https://github.com/craftech-io/gcp-infrastructure-live-reference)** - Referencia infraestructura GCP
+- **[infrastructure-live-reference](https://github.com/craftech-io/infrastructure-live-reference)** - Ref. infraestructura live
+- **[infrastructure-module-reference](https://github.com/craftech-io/infrastructure-module-reference)** - Ref. módulos infraestructura
+- **[infrastructure-module-reference-security](https://github.com/craftech-io/infrastructure-module-reference-security)** - Referencia seguridad módulos
+- **[infrastructure-multi-account-reference](https://github.com/craftech-io/infrastructure-multi-account-reference)** - Ref. multi-cuenta
+- **[local-environment-reference](https://github.com/craftech-io/local-environment-reference)** - Ref. entorno local Kind/Skaffold
+- **[terraform-template](https://github.com/craftech-io/terraform-template)** - Template módulos Terraform
 
 ## Scripts y Utilidades
 
-- **[assessment-scripts](https://github.com/craftech-io/assessment-scripts)** - Repositorio para evaluaciones e inventario de infraestructura
-- **[aws-ecr-http-proxy](https://github.com/craftech-io/aws-ecr-http-proxy)** - Un proxy de paso a través basado en nginx para AWS ECR con soporte de caché y actualización de token
-- **[backstage](https://github.com/craftech-io/backstage)** - Backstage es una plataforma abierta para crear portales de desarrolladores
-- **[module-security](https://github.com/craftech-io/module-security)** - Código Terraform y scripts para configurar mejores prácticas para administrar secretos, credenciales y servidores
-- **[package-pritunl](https://github.com/craftech-io/package-pritunl)** - Un módulo de Craftech para desplegar Pritunl VPN (basado en OpenVPN)
-- **[pipelines-reference](https://github.com/craftech-io/pipelines-reference)** - Un repositorio con ejemplo de configuración de pipeline para diferentes proveedores de CI/CD
+- **[assessment-scripts](https://github.com/craftech-io/assessment-scripts)** - Scripts evaluación infraestructura
+- **[aws-ecr-http-proxy](https://github.com/craftech-io/aws-ecr-http-proxy)** - Proxy pass-through ECR
+- **[backstage](https://github.com/craftech-io/backstage)** - Portal desarrolladores
+- **[module-security](https://github.com/craftech-io/module-security)** - Módulos seguridad/secretos
+- **[package-pritunl](https://github.com/craftech-io/package-pritunl)** - Módulo Pritunl VPN
+- **[pipelines-reference](https://github.com/craftech-io/pipelines-reference)** - Ejemplos pipelines CI/CD
 
 ## Sitios Web y Documentación
 
-- **[blog](https://github.com/craftech-io/blog)** - Blog de Craftech
-- **[craftech.io](https://github.com/craftech-io/craftech.io)** - El sitio web de craftech.io
-- **[docusaurus](https://github.com/craftech-io/docusaurus)** - Sin descripción disponible
+- **[blog](https://github.com/craftech-io/blog)** - Blog Craftech
+- **[craftech.io](https://github.com/craftech-io/craftech.io)** - Sitio web Craftech.io
+- **[docusaurus](https://github.com/craftech-io/docusaurus)** - Sitio Docusaurus
 
 ---
 
