@@ -50,17 +50,17 @@ Aquí encontrarás herramientas, módulos de Terraform, ejemplos de infraestruct
 
 ## CI/CD y Acciones de GitHub
 
-- **[eks-helm-deploy-action](https://github.com/craftech-io/eks-helm-deploy-action)** - Despliegue EKS con Helm
-- **[eks-helmfile-deploy-action](https://github.com/craftech-io/eks-helmfile-deploy-action)** - Despliegue con Helmfile
+- (¿Qué es esto?) **[eks-helm-deploy-action](https://github.com/craftech-io/eks-helm-deploy-action)** - Despliegue EKS con Helm
+- (¿Qué es esto?) **[eks-helmfile-deploy-action](https://github.com/craftech-io/eks-helmfile-deploy-action)** - Despliegue con Helmfile
 - **[gitci_templates](https://github.com/craftech-io/gitci_templates)** - Plantillas GitLab CI/CD
 - **[module-ci](https://github.com/craftech-io/module-ci)** - Automatización CI
 - **[publish-terraform-module-action](https://github.com/craftech-io/publish-terraform-module-action)** - Publicador módulos Terraform
-- **[slack-action](https://github.com/craftech-io/slack-action)** - Notificaciones Slack
+- (¿Qué es esto?) **[slack-action](https://github.com/craftech-io/slack-action)** - Notificaciones Slack
 
 ## Herramientas CLI y Automatización
 
 - **[.github](https://github.com/craftech-io/.github)** - Config. central GitHub
-- **[alpine-aws-cli](https://github.com/craftech-io/alpine-aws-cli)** - Imagen Docker Alpine con AWS CLI
+- (¿Qué es esto?) **[alpine-aws-cli](https://github.com/craftech-io/alpine-aws-cli)** - Imagen Docker Alpine con AWS CLI
 - **[aws-exams-app](https://github.com/craftech-io/aws-exams-app)** - Aplicación de exámenes AWS
 - **[bash-scripts](https://github.com/craftech-io/bash-scripts)** - Scripts bash útiles - ¡Que viva BASH!
 - **[cloudformation-templates](https://github.com/craftech-io/cloudformation-templates)** - Templates CloudFormation (IAM, presupuestos)
@@ -76,18 +76,18 @@ Aquí encontrarás herramientas, módulos de Terraform, ejemplos de infraestruct
 - **[module-installer](https://github.com/craftech-io/module-installer)** - Script instalador módulos
 - **[MSP](https://github.com/craftech-io/MSP)** - Monorepo de herramientas MSP
 - **[n8n-craftech](https://github.com/craftech-io/n8n-craftech)** - Infraestructura n8n AWS
-- **[pipeline-generator](https://github.com/craftech-io/pipeline-generator)** - Generador pipelines CI/CD
+- (¿Qué es esto?) **[pipeline-generator](https://github.com/craftech-io/pipeline-generator)** - Generador pipelines CI/CD
 - **[pre-commit](https://github.com/craftech-io/pre-commit)** - Hooks pre-commit Craftech
-- **[python-scripts](https://github.com/craftech-io/python-scripts)** - Colección scripts Python
+- (Combinar con el de BASH SCRIPTS)  **[python-scripts](https://github.com/craftech-io/python-scripts)** - Colección scripts Python
 - **[registry](https://github.com/craftech-io/registry)** - Registro privado Craftech
 - **[terragrunt-dependencies-updater](https://github.com/craftech-io/terragrunt-dependencies-updater)** - CLI para actualizar módulos
 - **[terragrunt-deployer](https://github.com/craftech-io/terragrunt-deployer)** - Deployer Terragrunt
 
 ## Infraestructura como Código
 
-- **[cloudpiles-sidom-infra-live](https://github.com/craftech-io/cloudpiles-sidom-infra-live)** - PoC Sidom/Cloudpiles
+- (¿Qué es esto?)  **[cloudpiles-sidom-infra-live](https://github.com/craftech-io/cloudpiles-sidom-infra-live)** - PoC Sidom/Cloudpiles
 - **[craftech-infrastructure-live](https://github.com/craftech-io/craftech-infrastructure-live)** - Infraestructura live Terragrunt
-- **[infrastructure-live-intelligential](https://github.com/craftech-io/infrastructure-live-intelligential)** - Infraestructura live Intelligential
+- (¿Qué es esto?) **[infrastructure-live-intelligential](https://github.com/craftech-io/infrastructure-live-intelligential)** - Infraestructura live Intelligential
 - **[intro-to-terratest](https://github.com/craftech-io/intro-to-terratest)** - Ejemplos Terratest
 - **[module-data-storage](https://github.com/craftech-io/module-data-storage)** - Módulos almacenamiento
 - **[module-ec2-server](https://github.com/craftech-io/module-ec2-server)** - Módulos EC2
@@ -123,12 +123,12 @@ Aquí encontrarás herramientas, módulos de Terraform, ejemplos de infraestruct
 
 ## Kubernetes & EKS
 
-- **[argo-rollouts-meetup](https://github.com/craftech-io/argo-rollouts-meetup)** - Demo meetup ArgoCD/Rollouts
+-  (Poner en LABS) **[argo-rollouts-meetup](https://github.com/craftech-io/argo-rollouts-meetup)** - Demo meetup ArgoCD/Rollouts
 - **[argocd-diff-preview](https://github.com/craftech-io/argocd-diff-preview)** - ArgoCD Diff Preview
-- **[argocd-gitops-demo](https://github.com/craftech-io/argocd-gitops-demo)** - Demo ArgoCD GitOps
+- (Poner en LABS) **[argocd-gitops-demo](https://github.com/craftech-io/argocd-gitops-demo)** - Demo ArgoCD GitOps
 - **[argocd-repository-templates](https://github.com/craftech-io/argocd-repository-templates)** - Templates repositorios ArgoCD
 - **[ci-tools](https://github.com/craftech-io/ci-tools)** - Docker terraform/terragrunt
-- **[demo-eks-scaling-with-keda-and-karpenter](https://github.com/craftech-io/demo-eks-scaling-with-keda-and-karpenter)** - Demo escalado EKS/KEDA
+- (Poner en LABS) **[demo-eks-scaling-with-keda-and-karpenter](https://github.com/craftech-io/demo-eks-scaling-with-keda-and-karpenter)** - Demo escalado EKS/KEDA
 - **[eks-addons](https://github.com/craftech-io/eks-addons)** - Módulos add-ons EKS
 - **[eks-cron-shutdown](https://github.com/craftech-io/eks-cron-shutdown)** - Apagado programado clusters EKS
 - **[eks-management](https://github.com/craftech-io/eks-management)** - Herramientas gestión EKS
@@ -188,21 +188,21 @@ Aquí encontrarás herramientas, módulos de Terraform, ejemplos de infraestruct
 
 - **[atlantis](https://github.com/craftech-io/atlantis)** - Configuraciones Atlantis
 - **[aws-partner-hubspot-connector](https://github.com/craftech-io/aws-partner-hubspot-connector)** - Conector AWS Partner/HubSpot
-- **[chartmuseum-auth-server](https://github.com/craftech-io/chartmuseum-auth-server)** - Auth server ChartMuseum
-- **[clients](https://github.com/craftech-io/clients)** - Recursos clientes
-- **[docker-templates](https://github.com/craftech-io/docker-templates)** - Templates Docker
+- (¿Qué es esto?) **[chartmuseum-auth-server](https://github.com/craftech-io/chartmuseum-auth-server)** - Auth server ChartMuseum
+- (Eliminar) **[clients](https://github.com/craftech-io/clients)** - Recursos clientes
+- (Poner en LABS) **[docker-templates](https://github.com/craftech-io/docker-templates)** - Templates Docker
 - **[fast-tech-talks](https://github.com/craftech-io/fast-tech-talks)** - Materiales charlas tech
-- **[fifa](https://github.com/craftech-io/fifa)** - Experimentación interna
-- **[keda-examples](https://github.com/craftech-io/keda-examples)** - Ejemplos KEDA
+- (ME MUERO) **[fifa](https://github.com/craftech-io/fifa)** - Experimentación interna
+- (Poner en LABS) **[keda-examples](https://github.com/craftech-io/keda-examples)** - Ejemplos KEDA
 - **[labs](https://github.com/craftech-io/labs)** - Centro utilidades/experimentos
 - **[module-ecs](https://github.com/craftech-io/module-ecs)** - Módulos gestión ECS
-- **[package-vault](https://github.com/craftech-io/package-vault)** - Módulo Vault
+- (Eliminar) **[package-vault](https://github.com/craftech-io/package-vault)** - Módulo Vault
 - **[tekton-ftt](https://github.com/craftech-io/tekton-ftt)** - Configuración Tekton FTT
 - **[terralist](https://github.com/craftech-io/terralist)** - Administrador módulos Terraform
 - **[verdaccio](https://github.com/craftech-io/verdaccio)** - Imágenes Docker Verdaccio
 - **[wafr-custom-lenses](https://github.com/craftech-io/wafr-custom-lenses)** - Lenses personalizados WAFR
 
-## Referencias y Ejemplos
+## Referencias y Ejemplos (TODO ESTO PONER EN LABS)
 
 - **[crossplane-demo](https://github.com/craftech-io/crossplane-demo)** - Demo Crossplane IaC
 - **[gcp-infrastructure-live-reference](https://github.com/craftech-io/gcp-infrastructure-live-reference)** - Referencia infraestructura GCP
@@ -215,12 +215,12 @@ Aquí encontrarás herramientas, módulos de Terraform, ejemplos de infraestruct
 
 ## Scripts y Utilidades
 
-- **[assessment-scripts](https://github.com/craftech-io/assessment-scripts)** - Scripts evaluación infraestructura
+- (Poner en Labs) **[assessment-scripts](https://github.com/craftech-io/assessment-scripts)** - Scripts evaluación infraestructura
 - **[aws-ecr-http-proxy](https://github.com/craftech-io/aws-ecr-http-proxy)** - Proxy pass-through ECR
-- **[backstage](https://github.com/craftech-io/backstage)** - Portal desarrolladores
+- (Eliminar?) **[backstage](https://github.com/craftech-io/backstage)** - Portal desarrolladores
 - **[module-security](https://github.com/craftech-io/module-security)** - Módulos seguridad/secretos
 - **[package-pritunl](https://github.com/craftech-io/package-pritunl)** - Módulo Pritunl VPN
-- **[pipelines-reference](https://github.com/craftech-io/pipelines-reference)** - Ejemplos pipelines CI/CD
+- (Combinar con el Git CI Templates) **[pipelines-reference](https://github.com/craftech-io/pipelines-reference)** - Ejemplos pipelines CI/CD
 
 ## Sitios Web y Documentación
 
