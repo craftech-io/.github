@@ -188,7 +188,7 @@ Aquí encontrarás herramientas, módulos de Terraform, ejemplos de infraestruct
 
 - **[atlantis](https://github.com/craftech-io/atlantis)** - Configuraciones Atlantis
 - **[aws-partner-hubspot-connector](https://github.com/craftech-io/aws-partner-hubspot-connector)** - Conector AWS Partner/HubSpot
-- (Eliminar) **[chartmuseum-auth-server](https://github.com/craftech-io/chartmuseum-auth-server)** - Auth server ChartMuseum
+- (¿Qué es esto?) **[chartmuseum-auth-server](https://github.com/craftech-io/chartmuseum-auth-server)** - Auth server ChartMuseum
 - (Eliminar) **[clients](https://github.com/craftech-io/clients)** - Recursos clientes
 - (Poner en LABS) **[docker-templates](https://github.com/craftech-io/docker-templates)** - Templates Docker
 - **[fast-tech-talks](https://github.com/craftech-io/fast-tech-talks)** - Materiales charlas tech
